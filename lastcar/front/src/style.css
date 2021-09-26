@@ -1,0 +1,276 @@
+/* Partie footer */
+footer {
+    background-color: #ed1b24;
+    color: white;
+    padding: 10px;
+    margin-top: 100px;
+}
+
+/* Pour la couleur des icones dans le footer */
+.fab  {
+    color: white;
+    text-decoration: none;
+    margin: 5px
+}
+
+.para {
+ visibility: hidden;
+}
+
+
+
+/* Pour le texte à côté de l'image sur la page d'accueil */
+p {
+    margin-top: 10px;
+    padding: 10px;
+}
+
+#texte {
+    padding: 20px;
+    margin-top: 150px;
+}
+
+
+
+
+/* Partie de la page connexion et de la page inscription */
+#connexion {
+    background-color: #414143;
+    color: white;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+button.btn.boutton {
+    background-color: #ed1b24;
+    color: white;
+    margin-bottom: 10px;
+}
+
+button.btn.boutton.passager {
+    background-color: #ed1b24;
+    color: white;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+/* Pour le formulaire d'inscription */
+#inscription {
+    background-color: #414143;
+    color: white;
+    border-radius: 30px;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+
+
+
+
+/* C'est la partie de la page des visiteurs */
+/* Pour les images */
+#listemembrevisiteur {
+    width: 250px;
+    height: 200px;
+    box-shadow: -10px 7px 15px 4px #414143;
+    border-radius: 20px;
+}
+
+#listetrajetvisiteur {
+    width: 250px;
+    height: 200px;
+    box-shadow: -10px 7px 15px 4px #414143;
+    border-radius: 20px;
+}
+
+#contactadmin {
+    width: 250px;
+    height: 200px;
+    box-shadow: -10px 7px 15px 4px #414143;
+    border-radius: 20px;
+}
+
+/* Pour les popups */
+.test {
+    border-style: none;
+    background-color: white;
+}
+
+.test.page {
+    margin: 20px;
+
+}
+
+
+
+.close {
+    background-color: #414143;
+    width: 30px;
+    height: 30px;
+    color: white;
+    border-radius: 5px;
+}
+
+
+
+
+
+/* Partie de la page d'admin */
+/* Pour les tableaux  */
+table{
+    margin-top: 30px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+table .th{
+    justify-content: middle;
+}
+
+
+/* Pour les images */
+.membres{
+    width: 250px;
+    height: 200px;
+    box-shadow: -10px 7px 15px 4px #414143;
+    border-radius: 20px;
+    margin-left: 80px;
+}
+
+.Membres{
+    width: 250px;
+    height: 200px;
+    box-shadow: -10px 7px 15px 4px #414143;
+    border-radius: 20px;
+    margin-left: 80px;
+}
+
+
+.evenements{
+    width: 250px;
+    height: 200px;
+    box-shadow: -10px 7px 15px 4px #414143;
+    border-radius: 20px;
+    margin-left: 230px;
+}
+
+.trajets{
+    width: 230px;
+    height: 200px;
+    box-shadow: -10px 7px 15px 4px #414143;
+    border-radius: 20px;
+    margin-left: 380px;
+}
+
+.messages{
+    width: 200px;
+    height: 200px;
+    box-shadow: -10px 7px 15px 4px #414143;
+    border-radius: 20px;
+    margin-left: 510px;
+}
+
+.notifs{
+    width: 200px;
+    height: 200px;
+    box-shadow: -10px 7px 15px 4px #414143;
+    border-radius: 20px;
+    margin-left: 610px;
+}
+
+/* Formulaire des évènements côté admin */
+#adminevent{
+    margin-top: 30px;
+    background-color: #414143;
+    color: white;
+    border-radius: 30px;
+    padding: 20px; 
+}
+
+
+
+
+/* Formulaire côté membre conducteur */
+#trajetcovoit{
+    background-color: #414143;
+    color: white;
+    border-radius: 30px;
+    padding: 20px; 
+}
+
+#recherchetrajet{
+    background-color: #414143;
+    color: white;
+    border-radius: 30px;
+    padding: 20px; 
+}
+
+
+input#villeDepartTrajet { 
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+input#dateTrajet { 
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+input#villeFinTrajet { 
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+input#tarifParPersonnes { 
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.col-8.offset-3.text-center{
+    margin-top: 20px;
+}
+
+
+/* Images en dessous des formulaire - page membre */
+#espace_membre{
+    height: 200px;
+    box-shadow: -10px 7px 15px 4px #414143;
+    border-radius: 20px;
+}
+
+
+#profil-carousel{
+    background-color: #c4c4c4;
+    border-radius: 30px;
+    padding: 20px; 
+}
+
+/* Pour l'icone star */
+.fas{
+    color: #ed1b24;
+}
+
+/* Pour les photos des membres dans le carousel */
+#Edmond{
+    height: 150px;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#Lea{
+    height: 150px;
+    border-radius: 100%;
+}
+
+
+/* Formulaire d'envois d'un message sur la page membre */
+#envoismessage{
+    background-color: #414143;
+    color: white;
+}
+
+/* Pour l'image dans le petit formulaire dans le popup */
+#messagenotif{
+    height: 100px;
+    margin-top: -150px;
+    border-radius: 30px;
+}
