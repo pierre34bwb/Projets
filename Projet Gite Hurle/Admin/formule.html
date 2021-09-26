@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="adminStyle.css">
+    <title>Formules</title>
+</head>
+
+<body>
+    <header class="container-fluid">
+        <div class="row" >
+            <div class="col offset-1" id="logo">
+                <img src="/img/logo 1.png" alt="">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-7 offset-1" id="navbar" >
+                <nav class="navbar navbar-expand-lg">
+                    <div class="container-fluid">
+                        <ul class="navbar-nav">
+                            <li class="nav-item"><a class="nav-link" href="/Admin/index.html">ACCUEIL</a></li>
+                            <li class="nav-item"><a class="nav-link" href="/Admin/chambre.html">CHAMBRES</a></li>
+                            <li class="nav-item"><a class="nav-link" href="/Admin/formule.html">FORMULES</a></li>
+                            <li class="nav-item"><a class="nav-link" href="/Admin/reservation.html">RESERVATION</a></li>
+                            <li class="nav-item"><a class="nav-link" href="/Admin/information.html">INFORMATION</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    
+    <main class="container-fluid">
+
+        <div class="row titreService">
+            <div class="col-4 offset-4 text-center">
+                <h1 class="text-decoration-underline">Formules</h1>
+            </div>  
+        </div>
+
+        <div class="col-8 offset-2 mainAllService1">
+            <div class="service row style" id="Formule1">
+                <div class="col-4">
+                    <img src="" alt="" id="imgFormule1" class="imgFormuleStyle">
+                </div>
+                <div class="col">
+                    <img src="/img/bareSepa2.svg" alt="" class="bareSepa2">
+                </div>
+                <div class="col">
+                    <div class="row Formule FinitionTP" id="titreFormule1">Info</div>
+                    <div class="row paraService FinitionTP" id="infoFormule1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto dicta placeat praesentium a asperiores numquam laborum dolorum quis in maxime inventore iste animi necessitatibus reiciendis, et repellendus temporibus dolores totam.
+                    Obcaecati est nihil iste temporibus architecto ut provident aut dolorem at ullam deleniti modi sed molestias ea corporis nostrum consectetur commodi nisi doloremque, corrupti possimus itaque atque in similique. Id?</div>
+                    <div class="row">
+                        <div class="col-4"><button class="btnAdminStyle" onclick="afficherFormModifierFormule(1)">Modifier</button></div>
+                        <div class="col-4"><button class="btnAdminStyle" onclick="suppFormule(1)">Supprimer</button></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-8 offset-2 mainAllService2">
+            <div class="service row style" id="Formule2">
+                <div class="col-4">
+                    <img src="" alt="" id="imgFormule2" class="imgFormuleStyle">
+                </div>
+                <div class="col">
+                    <img src="/img/bareSepa2.svg" alt="" class="bareSepa2">
+                </div>
+                <div class="col">
+                    <div class="row Formule FinitionTP" id="titreFormule2">Info</div>
+                    <div class="row paraService FinitionTP" id="infoFormule2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto dicta placeat praesentium a asperiores numquam laborum dolorum quis in maxime inventore iste animi necessitatibus reiciendis, et repellendus temporibus dolores totam.
+                    Obcaecati est nihil iste temporibus architecto ut provident aut dolorem at ullam deleniti modi sed molestias ea corporis nostrum consectetur commodi nisi doloremque, corrupti possimus itaque atque in similique. Id?</div>
+                    <div class="row">
+                        <div class="col-4"><button class="btnAdminStyle" onclick="afficherFormModifierFormule(2)">Modifier</button></div>
+                        <div class="col-4"><button class="btnAdminStyle" onclick="suppFormule(2)">Supprimer</button></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-8 offset-2 mainAllService3">
+            <div class="service row style" id="Formule3">
+                <div class="col-4">
+                    <img src="" alt="" id="imgFormule3" class="imgFormuleStyle">
+                </div>
+                <div class="col">
+                    <img src="/img/bareSepa2.svg" alt="" class="bareSepa2">
+                </div>
+                <div class="col">
+                    <div class="row Formule FinitionTP" id="titreFormule3">Info</div>
+                    <div class="row paraService FinitionTP" id="infoFormule3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto dicta placeat praesentium a asperiores numquam laborum dolorum quis in maxime inventore iste animi necessitatibus reiciendis, et repellendus temporibus dolores totam.
+                    Obcaecati est nihil iste temporibus architecto ut provident aut dolorem at ullam deleniti modi sed molestias ea corporis nostrum consectetur commodi nisi doloremque, corrupti possimus itaque atque in similique. Id?</div>
+                    <div class="row">
+                        <div class="col-4"><button class="btnAdminStyle" onclick="afficherFormModifierFormule(3)">Modifier</button></div>
+                        <div class="col-4"><button class="btnAdminStyle" onclick="suppFormule(3)">Supprimer</button></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <button class="btnAdminStyle" onclick="addFormule()" id="add">Ajouter</button>  
+            
+        <div class="contenus">
+            <div>
+                <form action="" class="container-fluid">
+                    <div class="row">
+                        <label for="TitreFormule">Entrer un titre</label>
+                        <input type="text" id="TitreFormule" class="inputStyle">             
+                    </div>
+                    <div class="row">
+                    </div>
+                    <div class="row formStyle">
+                        <label for="imgFormule">Choisir une image (source web)</label>
+                        <input type="text" id="imgFormule" class="inputStyle">
+                    </div>
+                    <div class="row formStyle">
+                        <label for="paragrapheFormule">Entrer des informations</label>
+                        <textarea name="paragrapheFormule" id="paragrapheFormule" cols="30" rows="10" class="inputStyle"></textarea>
+                    </div>
+                </form>
+                <div class="row formStyle">
+                    <div class="col"><button class="btnAdminStyle" onclick="modifierFormule()">Valider</button></div>
+                    <div class="col"><button class="btnAdminStyle" onclick="cacherFormModifierFormule()">Anuler</button></div>
+                </div>
+            </div>
+        </div>
+        
+
+    <footer class="footer">
+        <div class="container">
+            <p class="text-muted"></p>
+        </div>
+    </footer>
+    <script src="/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,144 @@
+@font-face {
+    font-family: 'antic';
+    src: url(/font/Antic/antic-regular-webfont.woff2),
+        url(/font/Antic/antic-regular-webfont.woff);
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    margin: 0; 
+    padding: 0;
+    font-family: 'antic';
+}
+
+html{
+    position: relative;
+    min-height: 100%;
+}
+
+body{
+    background-image: url(/img/Background2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1256px;
+    width: 100%;
+    margin-bottom: 120px;
+}
+
+/*Style header*/
+header {
+    background-size: cover;
+    height: 368px;
+}
+
+#logo{
+    margin-top: 75px;
+}
+/*Fin Style header*/
+
+/*Style NavBar*/
+#navbar{
+    background-color: #6E0D25;
+    opacity: 0.8;
+    box-shadow: rgba(0, 0, 0, 0.230) inset 0px 4px 2px;
+    height: 80px;
+    border-radius: 50px;
+    margin-top: 40px; 
+}
+
+nav{
+    margin-top: 6px;
+}
+
+li{
+    font-size: 24px;
+    margin-left: 10px;
+}
+
+.navbar{
+    margin-left: 12px;
+    margin-top: 6px
+}
+
+.nav-link{
+    color: #FFFFB3;
+}
+
+.nav-link:hover{
+    color: #c3c382;
+}
+/*Fin Style NavBar*/
+
+.titreService{
+    height: 90px;
+    margin-top: 40px;
+    box-shadow: rgba(0, 0, 0, 0.250) 4px 4px 4px;
+    border-radius: 10px;
+    border: solid 5px #FFFFB3;
+    background-color: #6E0D25;
+    height: 90px;
+    text-align: center;
+    opacity: 0.8;
+}
+.titreService h1{
+    margin-left: -50px;
+    margin-top: 6px;
+}
+h1{
+    font-size: 48px;
+    color: #FFFFB3;
+    text-shadow: rgba(0, 0, 0, 0.210) 3px 3px 3px;
+}
+p{
+    font-size: 30px;
+}
+
+input{
+    width: 150px;
+    margin-left: -10px;
+}
+label{
+    margin-top: 20px;
+}
+
+.button{
+    margin-bottom: 10px;
+}
+.style{
+    box-shadow: rgba(0, 0, 0, 0.250) 4px 4px 4px;
+    border-radius: 30px;
+    border: solid 5px #FFFFB3;
+    background-color: #6E0D25;
+    color: #FFFFB3;
+    opacity: 0.8;
+}
+.styleFormulaire{
+    box-shadow: rgba(0, 0, 0, 0.250) 4px 4px 4px;
+    border-radius: 10px;
+    border: solid 5px #FFFFB3;
+    background-color: #6E0D25;
+    color: #FFFFB3;
+}
+
+.infoAll{
+    margin-top: 90px;
+}
+
+.histoire{
+    height: 541px;
+}
+
+.contact{
+    height: 541px;
+} 
+
+
+.footer{
+    position: absolute;
+    background-color: #6E0D25;
+    height: 80px;
+    width: 100%;
+    border-top: solid 5px #FFFFB3;
+    bottom: 0;
+}

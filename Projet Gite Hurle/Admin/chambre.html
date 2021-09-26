@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Chambres</title>
+</head>
+
+<body>
+    <header class="container-fluid">
+        <section class="row" >
+            <section class="col offset-1" id="logo">
+                <img src="/img/logo 1.png" alt="">
+            </section>
+        </section>
+        <section class="row">
+            <section class="col-7 offset-1" id="navbar" >
+                <nav class="navbar navbar-expand-lg">
+                    <section class="container-fluid">
+                        <ul class="navbar-nav">
+                            <li class="nav-item"><a class="nav-link" href="/Admin/index.html">ACCUEIL</a></li>
+                            <li class="nav-item"><a class="nav-link" href="/Admin/chambre.html">CHAMBRES</a></li>
+                            <li class="nav-item"><a class="nav-link" href="/Admin/formule.html">FORMULES</a></li>
+                            <li class="nav-item"><a class="nav-link" href="/Admin/reservation.html">RESERVATION</a></li>
+                            <li class="nav-item"><a class="nav-link" href="/Admin/information.html">INFORMATION</a></li>
+                        </ul>
+                    </section>
+                </nav>
+            </section>
+        </section>
+    </header>
+    <main class="container-fluid">
+
+        <section class="row titreService">
+            <section class="col-4 offset-4 text-center">
+                <h1 class="text-decoration-underline">Chambres</h1>
+            </section>  
+        </section>
+
+        <section class="col-8 offset-2 mainAllService">
+            <section class="service row style" id="service1">
+                <section class="col-4">
+                    <img src="" alt="" id="imgService1" class="imgServiceStyle">
+                </section>
+                <section class="col">
+                    <img src="/img/bareSepa2.svg" alt="" class="bareSepa2">
+                </section>
+                <section class="col">
+                    <section class="row Service FinitionTP" id="Service1"></section>
+                    <section class="row paraFormules FinitionTP" id="infoSercice1"></section>
+                    <section class="row infoFinition">
+                        <section class="col-4 offset-2"><button class="btnAdminStyle" onclick="afficherFormModifierService(1)">Modifier</button></section>
+                        <section class="col-5 offset-6 infoService"><p id="infoService1"></p></section>
+                    </section>
+                </section>
+            </section>
+
+            <section class="service row style" id="service2">
+                <section class="col-4">
+                    <img src="" alt="" id="imgService2" class="imgServiceStyle">
+                </section>
+                <section class="col">
+                    <img src="/img/bareSepa2.svg" alt="" class="bareSepa2">
+                </section>
+                <section class="col">
+                    <section class="row Service FinitionTP" id="Service2"></section>
+                    <section class="row paraService FinitionTP" id="infoSercice2"></section>
+                    <section class="row infoFinition">
+                        <section class="col-4 offset-2"><button class="btnAdminStyle" onclick="afficherFormModifierService(2)">Modifier</button></section>
+                        <section class="col-5 offset-6 infoService"><p id="infoService2"></p></section>
+                    </section>
+                </section>
+            </section>
+
+            <section class="service row style" id="service3">
+                <section class="col-4">
+                    <img src="" alt="" id="imgService3" class="imgServiceStyle">
+                </section>
+                <section class="col">
+                    <img src="/img/bareSepa2.svg" alt="" class="bareSepa2">
+                </section>
+                <section class="col">
+                    <section class="row Service FinitionTP" id="Service3"></section>
+                    <section class="row paraService FinitionTP" id="infoSercice3"></section>
+                    <section class="row infoFinition">
+                        <section class="col-4 offset-2"><button class="btnAdminStyle" onclick="afficherFormModifierService(3)">Modifier</button></section>
+                        <section class="col-5 offset-6 infoService"><p id="infoService3"></p></section>
+                    </section>
+                </section>
+            </section>
+
+        </section>
+
+    </main>
+
+    <section class="contenus">
+        <section>
+            <form action="" class="container-fluid">
+                <section class="row">
+                    <label for="TitreService">Entrer un titre</label>
+                    <input type="text" id="TitreService" class="inputStyle">             
+                </section>
+                <section class="row">
+                </section>
+                <section class="row formStyle">
+                    <label for="imgService">Choisir une image (source web)</label>
+                    <input type="text" id="imgService" class="inputStyle">
+                </section>
+                <section class="row formStyle">
+                    <label for="paragrapheService">Entrer des informations</label>
+                    <textarea name="paragrapheService" id="paragrapheService" cols="30" rows="10" class="inputStyle"></textarea>
+                </section>
+                <section class="row formStyle">
+                    <label for="nbrEspace">Nombre d'espace</label>
+                    <input type="number" id="nbrEspace" class="inputStyle">
+                </section>
+                <section class="row formStyle">
+                    <label for="prix">Votre prix par nuit</label>
+                    <input type="number" id="prix" class="inputStyle">
+                </section>
+            </form>
+            <section class="row formStyle">
+                <section class="col"><button class="btnAdminStyle" onclick="modifierService()">Valider</button></section>
+                <section class="col"><button class="btnAdminStyle" onclick="cacherFormModifierService()">Anuler</button></section>
+            </section>
+        </section>
+    </section>
+
+    <footer class="footer">
+        <section class="container">
+            <p class="text-muted"></p>
+        </section>
+    </footer>
+    <script src="/script.js"></script>
+</body>
+
+</html>

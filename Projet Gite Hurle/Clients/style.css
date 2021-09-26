@@ -1,0 +1,346 @@
+@font-face {
+    font-family: 'antic';
+    src: url(/font/Antic/antic-regular-webfont.woff2),
+        url(/font/Antic/antic-regular-webfont.woff);
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    margin: 0; 
+    padding: 0;
+    font-family: 'antic';
+}
+
+html{
+    position: relative;
+    min-height: 100%;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    margin-bottom: 120px;
+}
+
+/*Style header*/
+header {
+    background-image: url(/img/BackgroundHeader.jpg);
+    background-size: cover;
+    height: 368px;
+}
+
+#logo{
+    margin-top: 75px;
+}
+/*Fin Style header*/
+
+/*Style NavBar*/
+#navbar{
+    background-color: #6E0D25;
+    opacity: 0.8;
+    box-shadow: rgba(0, 0, 0, 0.230) inset 0px 4px 2px;
+    height: 80px;
+    border-radius: 50px;
+    margin-top: 40px; 
+}
+
+nav{
+    margin-top: 6px;
+}
+
+li{
+    font-size: 24px;
+    margin-left: 10px;
+}
+
+.navbar{
+    margin-left: 12px;
+    margin-top: 6px
+}
+
+.nav-link{
+    color: #FFFFB3;
+}
+
+.nav-link:hover{
+    color: #c3c382;
+}
+/*Fin Style NavBar*/
+
+h1{
+    font-size: 48px;
+    color: #6E0D25;
+    text-shadow: rgba(0, 0, 0, 0.210) 3px 3px 3px;
+}
+
+.titreService{
+    margin-top: 40px;
+}
+
+.mainAllService{
+    margin-top: 40px;
+}
+
+/*Page home*/
+#service{
+    margin-top: 30px;
+    height: 200px;
+}
+.imgHome{
+    height: 67px;
+    margin-top: 20px;
+}
+.imgHomeHistoire{
+    height: 90px;
+    margin-top: 20px;
+}
+.paraHome{
+    margin-top: 5px;
+    text-align: center;
+    font-size: 16px;
+}
+
+
+#histoire{
+    height: 250px;
+    
+}
+
+#contact{
+    margin-top: 30px;
+    height: 200px;
+    
+}
+/*Fin Page home*/
+
+
+.footer{
+    position: absolute;
+    background-color: #6E0D25;
+    height: 80px;
+    width: 100%;
+    border-top: solid 5px #FFFFB3;
+    bottom: 0;
+}
+
+/* Style pour les blocks*/
+.style{
+    box-shadow: rgba(0, 0, 0, 0.250) 4px 4px 4px;
+    border-radius: 30px;
+    border: solid 5px #FFFFB3;
+    background-color: #6E0D25;
+    color: #FFFFB3;
+}
+.bareSepaHome{
+    margin-top: 14px;
+}
+
+.bareSepa2{
+    margin-top: 38px;
+    margin-left: -30px;
+}
+
+/* Admin  */
+
+/* Style page Service*/
+.Service{
+    height: 24px;
+    font-size: 24px;
+    margin-top: 10px;
+    color: #FFFFB3;
+    text-decoration: underline;
+}
+
+.infoService{
+    margin-top: -84px;
+}
+
+.infoServiceClient{
+    margin: -50px;
+    margin-left: -1px;
+}
+.infoServiceClient p{
+    width: 300px;
+    height: 50px;
+    border-radius: 30px;
+    border: solid 5px #FFFFB3;
+    background-color: #6E0D25;
+    color: #FFFFB3;
+    text-align: center;
+    font-size: 15px;
+}
+
+.infoService p{
+    width: 300px;
+    height: 50px;
+    border-radius: 30px;
+    border: solid 5px #FFFFB3;
+    background-color: #6E0D25;
+    color: #FFFFB3;
+    text-align: center;
+    font-size: 15px;
+}
+.infoFinition{
+    margin-left: -335px;
+}
+.FinitionTP{
+    margin-left: -310px;
+}
+
+.service{
+    margin-top: 40px;
+    height: 250px;
+}
+
+.paraService{
+    margin-top: 22px;
+    height: 170px;
+    color: #FFFFB3;
+}
+
+.imgServiceStyle{
+    width: 240px;
+    height: 200px;
+    border: 5px solid #FFFFB3;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 10px;
+    color: #FFFFB3;
+}
+/* Fin Style page Service*/
+
+/* Style btn admin  */
+.btnAdminStyle{
+    border: solid 5px #FFFFB3;
+    background-color: #6E0D25;
+    border-radius: 10px;
+    width: 100px;
+    color: #FFFFB3;
+}
+.btnAdminStyle:hover{
+    box-shadow: rgba(0, 0, 0, 0.250) 4px 4px 4px;
+}
+/* Fin Style btn admin  */
+
+
+/* Style page formule*/
+.Formule{
+    height: 24px;
+    font-size: 24px;
+    margin-top: 10px;
+    color: #FFFFB3;
+    text-decoration: underline;
+}
+
+.infoFormule{
+    margin-top: -60px;
+}
+
+.Formules{
+    height: 24px;
+    font-size: 24px;
+    margin-top: 10px;
+    color: #FFFFB3;
+    text-decoration: underline;
+}
+
+.paraFormules{
+    margin-top: 22px;
+    height: 170px;
+    color: #FFFFB3;
+}
+
+.imgFormuleStyle{
+    width: 240px;
+    height: 200px;
+    border: 5px solid #FFFFB3;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+/* Fin Style page formule*/
+
+/* PopUP */
+
+.contenus{
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.3s ease;
+    position: absolute;
+    top: 35%;
+    left: 33%;
+    background: #6E0D25;
+    width: 500px;
+    max-height: 1000px;
+    border-radius: 20px;
+    text-align: center;
+    padding: 25px 25px 30px 25px;
+    border: solid 5px #FFFFB3;
+    color: #FFFFB3;
+    font-size: 20px;
+    box-shadow: black 0px 0px 20px 5px;
+}
+
+.contenus .formStyle{
+    margin-top: 20px;
+}
+.contenus .test{
+    line-height: 100px;
+}
+.inputStyle{
+    border-radius: 10px;
+    border: solid 5px #FFFFB3;
+    background-color: #6E0D25;
+    color: #FFFFB3;
+}
+.contenus.montrer{
+    opacity: 1;
+    visibility: visible;
+    transition: all 0.7s ease;
+}
+.contenus.cacher{
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.7s ease;
+}
+
+/* Fin PopUP */
+
+/*Début Style formulaire réservation*/
+.formReservatoin{
+    height: 655px;
+    margin-top: 40px;
+}
+
+.formulaire .formStyle{
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.formulaire button{
+    margin-top: 40px;
+    border: solid 5px #FFFFB3;
+    background-color: #6E0D25;
+    border-radius: 10px;
+    color: #FFFFB3;
+}
+
+.formulaire label{
+    margin-left: 10px;
+}
+.formulaire input{
+    height: 40px;
+    border: solid 5px #FFFFB3;
+    background-color: #6E0D25;
+    border-radius: 10px;
+    color: #FFFFB3;
+}
+/**/
+
+/* btn add Formule */
+#add{
+    position: absolute;
+    bottom: 105px;
+    left: 90%;
+}
